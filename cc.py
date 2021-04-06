@@ -80,7 +80,7 @@ if __name__ == "__main__":
             destination = arg
 
     valid_source = source in list_of_currencies
-    valid_amount = amount.isdigit()
+    valid_amount = amount.replace('.','',1).isdigit()
     valid_destination = (destination is None) or (destination in list_of_currencies)
     if valid_source and valid_amount and valid_destination:
         main(source, amount, destination)
