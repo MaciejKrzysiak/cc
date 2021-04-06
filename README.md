@@ -17,9 +17,6 @@ At this stage, you can use cc. For convenience, I'd add an alias so that you don
 Learn about aliasing here [Aliasize](https://linuxize.com/post/how-to-create-bash-aliases/).
 
 ## Usage
-
-python3 cc.py -s <source> -a <amount> -d <destination>
-
 ```
 $> python3 cc.py -s BTC -a 1337 -d NANO
 $> 1337 BTC converted to NANO is valued at 13721270.01 NANO
